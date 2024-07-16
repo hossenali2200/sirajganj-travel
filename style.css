@@ -339,6 +339,9 @@ height: 550px;
  .deal-btn{
     text-align: center;
  }
+ .deal{
+   margin-bottom: 60px;
+ }
 
  .deal-container{
    margin-top: 60px;
@@ -434,6 +437,73 @@ height: 550px;
    padding: 1rem;
 }
 
+.place-container{
+   display: flex;
+   margin-top: 3rem;
+   width: 90%;
+   margin: 0 auto;
+   gap: 8rem;
+}
+
+.place-content{
+   width: 532px;
+   height: 424px;
+}
+
+.placeoff{
+   text-align: left;
+}
+.placeoff li{
+   color: black;
+   font-weight: 800;
+}
+
+.subscribe{
+   display: flex;
+   gap: 2rem;
+}
+
+.input{
+   width: 474px;
+   height: 422px;
+   margin-bottom: 2px;
+   border: 2px solid rgb(255, 84, 0);
+   padding: 30px;
+   border-radius: .5rem;
+   
+}
+
+.input  p{
+   text-align: left;
+   margin-bottom: 1.5rem;
+}
+
+.input h4{
+   margin-bottom: 1.5rem;
+   font-size: 24px;
+   font-weight: 800;
+}
+
+input{
+   margin-bottom: 1.5rem;
+   padding: 16px;
+   width: 393px;
+   border-radius: 8px;
+    
+}
+
+.input button{
+   width: 430px;
+}
+
+hr{
+   margin: 2rem 0;
+   width: 420px;
+   color:rgba(19, 19, 24, 0.1);
+}
  
+.subscribe-img img{
+   height: 485px;
+}
 
   
