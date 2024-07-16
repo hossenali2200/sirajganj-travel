@@ -24,7 +24,7 @@
     line-height: normal;
  }
 
- p{
+ p,li{
     color: rgba(19, 19, 24, 0.7); 
     font-size: 16px;
     font-weight: 400;
@@ -58,6 +58,16 @@
     border: none;
     margin-top: 1rem;
     cursor: pointer;
+     }
+
+     .country{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: white;
+        font-weight: bold;
+        font-size: 28px;
+        transform: translate(-50%, -50%);
      }
 
  /* navbar style */
@@ -184,3 +194,246 @@ cursor: pointer;
     margin: auto;
     color: white;
  }
+
+ /* popular style */
+
+ .popular{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 60px;
+    gap: 5rem;
+ }
+
+ .popular-content{
+    width: 576px;
+    height: 550px;
+ }
+
+ .popular-content p, li{
+    text-align: left;
+    margin: 1rem;
+ }
+
+ .title{
+    text-align: left;
+ }
+
+ .popular-img img{
+   
+width: 540px;
+height: 550px;
+ 
+ }
+
+ /* destination */
+
+ .destination{
+    margin-top: 60px;
+ }
+
+ .destination-content{
+    width: 644px;
+    height: 126px;
+    margin: 0 auto;
+ }
+ .country-card{
+    position: relative;
+ }
+
+ 
+ .row-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem 0;
+    gap: 1rem;
+ }
+
+ .row-2{
+    display: grid;
+    grid-template-columns: .8fr 1.5fr .7fr;
+    margin: 1rem 0;
+    gap: 1rem;
+ }
+
+ 
+  
+ .row-3{
+   display: grid;
+   grid-template-columns: 1fr 2fr ;
+   margin: 1rem 0;
+   gap: 1rem;
+ }
+
+ .destination-img img{
+    width: 100%;
+    height: 300px;
+    filter: brightness(70%);
+ }
+
+ /* choose section */
+
+ .choose{
+   margin-top: 60px;
+
+ }
+
+ .choose-content{
+   width: 644px;
+   height: 52px;
+   margin: 0 auto;
+ }
+
+ .choose-cards{
+   margin-top: 80px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr );
+   gap: 1rem;
+ }
+
+ .choose-card-1{
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 1rem;
+    
+  
+ }
+ .choose-card-2{
+    background-color: rgb(196, 239, 255);
+    border: 1px solid black;
+    border-radius: 1rem;
+     
+   
+  
+ }
+ 
+  
+
+ 
+
+ .choose-box img{
+   width: 10%;
+   margin-bottom: 1.25rem;
+   border: 2px dashed rgb(123, 123, 248);
+ }
+
+ .choose-box{
+   padding: 2rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: left;
+   align-items: left;
+   
+ }
+
+ .choose-box p{
+   text-align: left;
+ }
+
+ .choose-box:hover{
+   border: 3px solid rgb(123, 123, 248);
+   border-radius: 1rem;
+ }
+
+
+ /* deal section style */
+ .deal-btn{
+    text-align: center;
+ }
+
+ .deal-container{
+   margin-top: 60px;
+ }
+
+ .deal-content{
+   width: 644px;
+   height: 126px;
+   margin: 0 auto;
+ }
+
+ .discount-container{
+   max-width: 90%;
+   height: 500px;
+   margin: 0 auto;
+   border: 1px solid blue;
+   border-radius: 1rem;
+   background-image: url('./Images/Group\ 39.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-bottom: 30px;
+ }
+
+ .discount-container-2{
+    
+   max-width: 90%;
+   height: 500px;
+   margin: 0 auto;
+   border: 1px solid blue;
+   border-radius: 1rem;
+   background-image: url('./Images/Group\ 39.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-bottom: 30px;
+ }
+ .discount-container-3{
+    
+   max-width: 90%;
+   height: 500px;
+   margin: 0 auto;
+   border: 1px solid blue;
+   border-radius: 1rem;
+   background-image: url('./Images/Group\ 39.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+    
+ }
+
+ .discount{
+   text-align: left;
+   margin-top: 1rem;
+ }
+.icon{
+    display: flex;
+    gap: 1rem;
+}
+
+.icon i{
+   color: red;
+}
+
+.discount-card{
+   max-width: 500px;
+   height: 300px;
+   margin: 0 auto;
+   background-color: white; 
+   opacity: 75%;
+   margin-top: 5rem;
+   margin-left: 40rem;
+   border-radius: 1rem;
+   padding: 1rem;
+}
+.discount-card-2{
+   max-width: 500px;
+   height: 300px;
+   margin: 0 auto;
+   background-color: white; 
+   opacity: 75%;
+   margin-top: 5rem;
+   margin-left: 3rem;
+   border-radius: 1rem;
+   padding: 1rem;
+}
+.discount-card-3{
+   max-width: 500px;
+   height: 300px;
+   margin: 0 auto;
+   background-color: white; 
+   opacity: 75%;
+   margin-top: 5rem;
+   margin-left: 40rem;
+   border-radius: 1rem;
+   padding: 1rem;
+}
+
+ 
+
+  
