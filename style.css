@@ -150,7 +150,7 @@
 
  }
 
- .hero-input input,select {
+ .hero-input select {
     /* Rectangle 3 */
  
 width: 174px;
@@ -177,6 +177,14 @@ cursor: pointer;
 
  .hero-input input{
     text-align: left;
+ }
+
+ .hero-input input{
+   width: 174px;
+height: 16px;
+margin: 1rem;
+border-radius: 8px;
+border: none;
  }
 
  
@@ -461,6 +469,7 @@ height: 550px;
 .subscribe{
    display: flex;
    gap: 2rem;
+
 }
 
 .input{
@@ -504,6 +513,43 @@ hr{
  
 .subscribe-img img{
    height: 485px;
+   width: 690px;
+}
+
+
+footer{
+   background-color: gray;
+   color: white;
+}
+
+.footer-content{
+   width: 800px;
+   margin: 0 auto;
+    
+}
+
+.title{
+   display: flex;
+   justify-content: center;
+   padding: 40px;
+}
+
+.icons-5{
+   margin-left: 300px;
+   font-size: 40px;
+   color: black;
+}
+
+.footer-content p{
+   margin-bottom: 30px;
+}
+
+.footer-hr{
+   width: 800px;
+}
+
+.footer-p{
+    padding: 30px;
 }
 
   
