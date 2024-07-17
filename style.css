@@ -115,6 +115,10 @@
     font-size: 1.25rem;
  }
 
+ .hamburg{
+   display: none;
+ }
+
  /* hero style */
 
  .hero{
@@ -228,7 +232,7 @@ border: none;
 
  .popular-img img{
    
-width: 540px;
+width: 100%;
 height: 550px;
  
  }
@@ -458,6 +462,10 @@ height: 550px;
    height: 424px;
 }
 
+.place-video{
+   width: 100%;
+}
+
 .placeoff{
    text-align: left;
 }
@@ -469,6 +477,7 @@ height: 550px;
 .subscribe{
    display: flex;
    gap: 2rem;
+   margin-top: 200px;
 
 }
 
@@ -550,6 +559,189 @@ footer{
 
 .footer-p{
     padding: 30px;
+}
+
+
+/* responsive style */
+
+@media screen and (max-width: 576px) {
+     .nav-link{
+      display: none;
+     }
+
+     .logo h3{
+      font-size: 24px;
+     }
+     .hamburg{
+      display:  block;
+      font-size: 26px;
+      cursor: pointer;
+    }
+
+    .container{
+      
+      margin: 5rem auto;
+      border-radius: 1rem;
+   }
+
+   .hero-input{
+      flex-direction: column;
+      padding: 1rem;
+     width: 100%;
+     height: 100%;
+
+      
+   }
+   .hero-content h3{
+       
+      font-size: 2rem;
+   }
+   .hero-content p{
+      width: 50%;
+      font-size: 12px;
+       
+   }
+
+   .hero-input input{
+      width: 70%;
+      text-align: center;
+   }
+   .hero-input select{
+      width: 80%;
+      text-align: center;
+   }
+
+    
+   
+   .hero-input button{
+      width: 90%;
+      text-align: center;
+   }
+   .popular{
+       
+      grid-template-columns: 1fr ;
+      
+   }
+
+   .popular-img img{
+   
+      width: 100%;
+      margin-top: 300px;
+       
+       
+       }
+       .popular-content{
+         width: 100%;
+         text-align: left;
+         
+      }
+
+      .destination-content,.choose-content, .deal-content{
+         width: 100%;
+      }
+
+      .destination-img{
+         margin-top: 100px;
+      }
+
+      .row-1,
+      .row-2,
+      .row-3{
+         grid-template-columns: 1fr;
+      }
+
+      .choose-cards{
+         margin-top: 100px;
+         grid-template-columns: 1fr;
+      }
+
+      .discount-container{
+         margin-top: 30px;
+         width: 100%;
+      }
+
+      .discount-card{
+         width: 100%;
+         margin: 0 auto;
+         margin-top: 80px;
+      }
+      .discount-container-2{
+         margin-top: 30px;
+         width: 100%;
+      }
+
+      .discount-card-2{
+         width: 100%;
+         margin: 0 auto;
+         margin-top: 80px;
+      }
+      .discount-container-3{
+         margin-top: 30px;
+         width: 100%;
+      }
+
+      .discount-card-3{
+         width: 100%;
+         margin: 0 auto;
+         margin-top: 80px;
+      }
+
+      .place-container{
+          flex-direction: column;
+      }
+
+      .place-content{
+         width: 100%;
+      }
+      .place-video iframe{
+         width: 100%;
+      }
+      .subscribe{
+         flex-direction: column;
+         
+      }
+
+      .input{
+         width: 80%;
+      }
+
+      input{
+         width: 80%;
+          
+      }
+
+      hr{
+         width: 80%;
+      }
+
+      .input button{
+         width: 100%;
+      }
+
+      .subscribe-img img{
+         width: 100%;
+      }
+
+      footer{
+         width: 100%;
+      }
+
+      .footer-content{
+         width: 100%;
+      }
+      .icons-5{
+         margin: 0 auto;
+         text-align: center;
+      }
+      
+      
+      .footer-content p{
+         margin-bottom: 30px;
+      }
+      
+      .footer-hr{
+         width: 100%;
+      }
 }
 
   
